@@ -1,0 +1,120 @@
+body {
+	margin: 0;
+	padding: 0;
+	position: absolute;
+	background-color: rgb(10, 10, 10);
+	color: rgb(240, 240, 240);
+	display: flex;
+	align-items: center;
+	flex-direction: column;
+	width: 100%;
+	font-family: Verdana, Tahoma, sans-serif;
+}
+
+
+header {
+	width: 95%;
+	max-width: 788px;
+	display: flex;
+	justify-content: flex-end;
+	padding: 12px;
+	margin-top: 15px;
+
+}
+
+h1 {
+	font-size: 20px;
+}
+
+.bio {
+	color:white;
+	font-size:14px;
+	font-weight:500;
+	line-height:1.5;
+
+}
+
+#img {
+	width: 40%;
+	height: 40%;
+	border-radius: 50%;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	border: 0px solid white;
+	margin: auto;
+	margin-top: -70px;
+
+	
+
+}
+
+.share-button {
+	width: 40px;
+	height: 40px;
+	border-radius:20px;
+	background-color: rgb(240, 240, 240);
+}
+
+.share-button svg {
+	margin-top: 10px;
+	margin-left: 12px;
+	color: rgb(0, 0, 0);
+}
+
+.container {
+	width: 91%;
+	max-width: 680px;
+	margin: 10px;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+}
+
+a {
+	text-decoration: none;
+	color: rgb(240, 240, 240);
+}
+
+.tile {
+	width: 100%;
+	
+	background-color: rgb(37, 37, 37);
+	margin: 7px;
+	border-radius: 17px;
+	display: flex;
+	justify-content: space-between;
+}
+
+.tile:hover {
+	transition: cubic-bezier(.07, 1.41, .82, 1.41) 0.2s;
+	transform: scale(1.02);
+}
+
+.tile-share-button {
+	margin: 8px;
+	width: 40px;
+	height: 40px;
+	border-radius: 20px;
+	background-color: rgb(52, 52, 52);
+}
+
+.tile-share-button svg {
+	margin-top: 10px;
+	margin-left: 12px;
+}
+
+.icon {
+	margin: 10px 10px;
+	width: 30px;
+	height: 30px;
+	align-items: center;
+}
+
+
+#author {
+
+			color:	rgb(105,105,105);
+			font-size: 1rem;
+			
+}
